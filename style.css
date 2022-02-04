@@ -31,7 +31,7 @@ body {
 }
 
 .container .result p{ 
-    font-size: 30pt;
+    font-size: 23pt;
     overflow-y: auto;
 }
 
@@ -46,10 +46,28 @@ body {
     display: grid;
     place-content: center;
     text-align: center;
-    width: 60px; height: 60px;
+    width: 54px; height: 54px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
     border-radius: 50px;
     box-shadow: 8px 8px 13px #cbced1, -8px -8px 13px #ffffff;
 }
 
+.container .buttons .zero { 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    border-radius: 10px;
+}
 
+.container .buttons .parameters {
+    color: rgb(225, 165, 0);
+    font-weight: bold;
+    font-size: 1.9rem;
+}
 
+.container .buttons .action-btn {
+    color: grey;
+    font-size: .9rem;
+}
